@@ -1,0 +1,11 @@
+<web-app>
+  <servlet>
+    <servlet-name>DisplayTable</servlet-name>
+    <servlet-class>DisplayTables</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>DisplayTable</servlet-name>
+    <url-pattern>/DT</url-pattern>
+  </servlet-mapping>
+</web-app>
