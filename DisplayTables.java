@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class DisplayTables extends HttpServlet {
-    public void doGet(HttpServletRequest req, HttpServletResponse res) {
+    public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         res.setContentType("text/html");
         PrintWriter out = res.getWriter();
         out.println("<html>");
@@ -14,5 +14,9 @@ public class DisplayTables extends HttpServlet {
         out.println("<h1> This is Santosh..</h1>");
         out.println("</body>");
         out.println("</html>");
+    }
+    
+    public void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+        doGet(req, res);
     }
 }
