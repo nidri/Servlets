@@ -2,10 +2,16 @@
   <servlet>
     <servlet-name>DisplayTable</servlet-name>
     <servlet-class>DisplayTables</servlet-class>
+    
+    <servlet-name>ShowTable</servlet-name>
+    <servlet-class>DisplayTables</servlet-class>
   </servlet>
   
   <servlet-mapping>
     <servlet-name>DisplayTable</servlet-name>
     <url-pattern>/DT</url-pattern>
+    
+    <servlet-name>ShowTable</servlet-name>
+    <url-pattern>/ST</url-pattern>
   </servlet-mapping>
 </web-app>
