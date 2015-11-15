@@ -26,6 +26,7 @@ public class ShowTable extends HttpServlet {
       finally {
         out.close();
       }
+    }
       public void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         doGet(req, res) ;
       }
