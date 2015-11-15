@@ -12,7 +12,7 @@ public class ShowTable extends HttpServlet {
       try {
         out.println("<!DOCTYPE html");  // HTML 5
         out.println("<html><head>");
-        out.println("<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>")
+        out.println("<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>");
         out.println("<head><title>" + "Multiplication Table"+ "</title></head>");
         out.println("<body>");
         out.println("<h1>" + "Table for " + Number + "</h1>");
