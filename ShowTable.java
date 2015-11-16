@@ -16,10 +16,11 @@ public class ShowTable extends HttpServlet {
         out.println("<head><title>" + "Multiplication Table"+ "</title></head>");
         out.println("<body>");
         out.println("<h1>" + "Table for " + Number + "</h1>");
-        out.println("<br /><br />");
+        out.println("<br />");
         for(int i=1; i<=10; i++)
           {
               out.println(Number + " X " + i + " = " + Number*i);
+              out.println("<br />");
           }
         out.println("</body></html>");
       }
